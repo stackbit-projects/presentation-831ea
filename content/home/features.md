@@ -10,7 +10,7 @@ Hasura connects different information gateways and provides a graphql interface 
 
 ## Different connectors
 
-- Databases (Postgres, MySql)
+- Databases (Postgres, MySql, SQL-Server)
 - Rest APIs
 - Other Graphql APIs
 - Any Hugo section can be output as a presentation
