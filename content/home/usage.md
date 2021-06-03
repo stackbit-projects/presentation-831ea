@@ -38,7 +38,7 @@ Inside `metadata/tables.yaml`:
 
 ---
 
-# Slide 1
+# Configure database
 
 Hello world!
 ```
