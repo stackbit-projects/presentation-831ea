@@ -8,7 +8,7 @@ Hasura connects different information gateways and provides a graphql interface 
 
 ---
 
-## Features
+## Different connectors
 
 - Write slides in Markdown in one or more files
 - Shortcodes for fragments, sections, slides & more
