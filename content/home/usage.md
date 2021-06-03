@@ -16,12 +16,11 @@ weight = 20
 
 ### Configuration
 
-Inside `content/_index.md`:
+Inside `metadata/tables.yaml`:
 
-```markdown
-+++
-outputs = ["Reveal"]
-+++
+```yaml
+
+```
 
 # Slide 1
 
