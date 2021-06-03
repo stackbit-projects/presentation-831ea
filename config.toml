@@ -1,0 +1,29 @@
+baseURL = ""
+languageCode = "en-us"
+title = "A Hugo theme for creating Reveal.js presentations"
+disableKinds = [ "sitemap", "RSS" ]
+theme = "reveal-hugo"
+themesDir = "themes"
+publishDir = "public"
+
+[author]
+name = "Josh Dzielak"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = false
+style = "tango"
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.reveal_hugo]
+history = true
+
+[params.reveal_hugo.templates.grey]
+background = "#424242"
+transition = "convex"
