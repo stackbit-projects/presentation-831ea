@@ -65,9 +65,8 @@ HASURA_GRAPHQL_METADATA_DIR=metadata/
 
 ---
 
-### Add slides with other files
+### Docker run
 
-Add slides to `content/home/*.md`
 
 ```markdown
 +++
