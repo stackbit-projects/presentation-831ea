@@ -15,8 +15,8 @@ background = "#FF4081"
 
 # 📽️
 
-# reveal-hugo
+# Hasura + Graphql
 
-A Hugo theme for creating Reveal.js presentations.
+by Francisco Iglesias
 
 ~ made by [@dzello](https://dzello.com/) ~
