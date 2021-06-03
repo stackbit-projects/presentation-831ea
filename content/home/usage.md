@@ -8,14 +8,9 @@ weight = 20
 
 ## Prerequisite
 
-First, add this to your `config.toml`:
-
-```toml
-[outputFormats.Reveal]
-baseName = "index"
-mediaType = "text/html"
-isHTML = true
-```
+- Have a postgres database set
+- Some initial metadata files
+- Docker
 
 ---
 
