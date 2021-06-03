@@ -18,5 +18,3 @@ background = "#FF4081"
 # Hasura + Graphql
 
 by Francisco Iglesias
-
-~ made by [@dzello](https://dzello.com/) ~
