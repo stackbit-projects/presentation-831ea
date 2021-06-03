@@ -16,7 +16,7 @@ weight = 20
 
 ### Configuration
 
-Create `content/_index.md`:
+Inside `content/_index.md`:
 
 ```markdown
 +++
