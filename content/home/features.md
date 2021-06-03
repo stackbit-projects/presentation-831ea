@@ -2,7 +2,7 @@
 weight = 10
 +++
 
-## What's included?
+## What is hasura?
 
 - All Reveal.js HTML, CSS and JS (v3.9.2)
 - All out-of-the-box Reveal.js themes
