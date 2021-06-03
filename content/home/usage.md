@@ -46,9 +46,7 @@ CREATE TABLE posts (
     id              SERIAL PRIMARY KEY,
     title           TEXT,
     created_at      TIMESTAMP WITH TIME ZONE DEFAULT now(),
-  started_at      TIMESTAMP WITH TIME ZONE,
-  finished_at     TIMESTAMP WITH TIME ZONE,
-  data            JSONB
+  updated_at      TIMESTAMP WITH TIME ZONE
 );
 
 ```
