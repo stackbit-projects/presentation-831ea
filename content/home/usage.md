@@ -69,7 +69,8 @@ HASURA_GRAPHQL_METADATA_DIR=metadata/
 
 
 ```sh
-docker run -d -p 8080:8080 --env-file .env -v /Users/francisco/Desktop/hasura-poc/server/metadata:/metadata hasura/graphql-engine:v1.2.0.cli-migrations-v2
+docker run -d -p 8080:8080 \
+    --env-file .env -v /Users/francisco/Desktop/hasura-poc/server/metadata:/metadata hasura/graphql-engine:v1.2.0.cli-migrations-v2
 ```
 
 <small>💡 Tip: Use `weight` to specify the order that files should be considered.</small>
