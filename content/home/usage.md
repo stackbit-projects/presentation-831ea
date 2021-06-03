@@ -41,14 +41,12 @@ Inside `metadata/tables.yaml`:
 # Configure database
 
 Supabase
-```
-
----
-
-### Add slides
-
-Separate them by `---` surrounded by blank lines:
-
+```sql
+CREATE TABLE [IF NOT EXISTS] table_name (
+   column1 datatype(length) column_contraint,
+   column2 datatype(length) column_contraint,
+   column3 datatype(length) column_contraint,
+);
 ```
 # Slide 1
 
