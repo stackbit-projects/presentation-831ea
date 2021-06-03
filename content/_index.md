@@ -10,7 +10,7 @@ transition = "slide"
 transition_speed = "fast"
 [reveal_hugo.templates.hotpink]
 class = "hotpink"
-background = "green"
+background = "#FF4081"
 +++
 
 # 📽️
