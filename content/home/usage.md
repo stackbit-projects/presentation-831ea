@@ -57,7 +57,7 @@ CREATE TABLE posts (
 
 .env
 ```
-HASURA_GRAPHQL_DATABASE_URL=postgres://postgres:cf011908cf2d8665092d220e97d98aa1@db.dwaudnmhfvswvnggkxxk.supabase.co:5432/postgres
+HASURA_GRAPHQL_DATABASE_URL=postgres://postgres:xxxxxxxxxxxxxxxxxxxxx@db.dwaudnmhfvswvnggkxxk.supabase.co:5432/postgres
 HASURA_GRAPHQL_ENABLE_CONSOLE=true
 HASURA_GRAPHQL_DEV_MODE=true
 HASURA_GRAPHQL_METADATA_DIR=metadata/
