@@ -22,14 +22,6 @@ Inside `metadata/tables.yaml`:
 - table:
     schema: public
     name: posts
-  insert_permissions:
-  - role: api
-    permission:
-      check: {}
-      columns:
-      - title
-      - body
-      backend_only: false
   select_permissions:
   - role: api
     permission:
