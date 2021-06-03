@@ -40,18 +40,6 @@ Inside `metadata/tables.yaml`:
       - updated_at
       filter: {}
       allow_aggregations: true
-  update_permissions:
-  - role: api
-    permission:
-      columns:
-      - title
-      - body
-      filter: {}
-      check: {}
-  delete_permissions:
-  - role: api
-    permission:
-      filter: {}
 
 ```
 
