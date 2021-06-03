@@ -75,7 +75,7 @@ docker run -d -p 8080:8080 \
     hasura/graphql-engine:v1.2.0.cli-migrations-v2
 ```
 
-<small>💡 Tip: Use `weight` to specify the order that files should be considered.</small>
+<small>This docker images auto applies migrations on run.</small>
 
 ---
 
