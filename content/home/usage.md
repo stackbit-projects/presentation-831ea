@@ -50,11 +50,7 @@ CREATE TABLE posts (
     updated_at      TIMESTAMP WITH TIME ZONE DEFAULT now()
 );
 ```
-# Slide 1
 
-Hello world!
-
----
 
 # Slide 2
 
