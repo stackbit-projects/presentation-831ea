@@ -53,9 +53,9 @@ CREATE TABLE posts (
 
 ---
 
-# Slide 2
+# Configure Environment
 
-Hello program!
+.env
 ```
 
 ---
