@@ -42,14 +42,15 @@ Inside `metadata/tables.yaml`:
 
 Supabase
 ```sql
-CREATE TABLE accounts (
-	user_id serial PRIMARY KEY,
-	title VARCHAR ( 50 ) UNIQUE NOT NULL,
-	body VARCHAR ( 50 ) NOT NULL,
-	email VARCHAR ( 255 ) UNIQUE NOT NULL,
-	created_on TIMESTAMP NOT NULL,
-        last_login TIMESTAMP 
+CREATE TABLE posts (
+    id              SERIAL PRIMARY KEY,
+    title           TEXT,
+    created_at      TIMESTAMP WITH TIME ZONE DEFAULT now(),
+  started_at      TIMESTAMP WITH TIME ZONE,
+  finished_at     TIMESTAMP WITH TIME ZONE,
+  data            JSONB
 );
+
 ```
 # Slide 1
 
