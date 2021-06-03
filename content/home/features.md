@@ -8,7 +8,7 @@ Hasura connects different information gateways and provides a graphql interface 
 
 ---
 
-## Different connectors
+## Connectors
 
 - Databases (Postgres, MySql, SQL-Server)
 - Rest APIs
