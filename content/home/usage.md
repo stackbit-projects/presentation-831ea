@@ -40,7 +40,7 @@ Inside `metadata/tables.yaml`:
 
 # Configure database
 
-Hello world!
+Supabase
 ```
 
 ---
