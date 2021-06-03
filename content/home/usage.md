@@ -53,7 +53,7 @@ CREATE TABLE posts (
 
 ---
 
-# Configure Environment
+### Configure Environment
 
 .env
 ```
