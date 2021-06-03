@@ -51,6 +51,7 @@ CREATE TABLE posts (
 );
 ```
 
+---
 
 # Slide 2
 
