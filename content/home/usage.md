@@ -14,7 +14,7 @@ weight = 20
 
 ---
 
-### Presentation at site root
+### Configuration
 
 Create `content/_index.md`:
 
