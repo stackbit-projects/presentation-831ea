@@ -42,10 +42,13 @@ Inside `metadata/tables.yaml`:
 
 Supabase
 ```sql
-CREATE TABLE [IF NOT EXISTS] table_name (
-   column1 datatype(length) column_contraint,
-   column2 datatype(length) column_contraint,
-   column3 datatype(length) column_contraint,
+CREATE TABLE accounts (
+	user_id serial PRIMARY KEY,
+	title VARCHAR ( 50 ) UNIQUE NOT NULL,
+	body VARCHAR ( 50 ) NOT NULL,
+	email VARCHAR ( 255 ) UNIQUE NOT NULL,
+	created_on TIMESTAMP NOT NULL,
+        last_login TIMESTAMP 
 );
 ```
 # Slide 1
