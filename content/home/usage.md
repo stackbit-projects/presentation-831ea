@@ -62,6 +62,7 @@ HASURA_GRAPHQL_ENABLE_CONSOLE=true
 HASURA_GRAPHQL_DEV_MODE=true
 HASURA_GRAPHQL_METADATA_DIR=metadata/
 ```
+
 ---
 
 ### Add slides with other files
