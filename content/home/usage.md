@@ -26,10 +26,11 @@ Inside `metadata/tables.yaml`:
   - role: api
     permission:
       columns:
-      - title
       - id
+      - title
       - body
       - updated_at
+      - created_ad
       filter: {}
       allow_aggregations: true
 
