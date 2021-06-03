@@ -4,9 +4,7 @@ weight = 10
 
 ## What is hasura?
 
-- All Reveal.js HTML, CSS and JS (v3.9.2)
-- All out-of-the-box Reveal.js themes
-- Two custom Reveal.js themes (including this one)
+Hasura connects different information gateways and provides a graphql interface to consume data.
 
 <br>
 <br>
