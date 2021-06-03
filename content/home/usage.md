@@ -43,6 +43,8 @@ Inside `metadata/tables.yaml`:
 
 ```
 
+---
+
 # Slide 1
 
 Hello world!
