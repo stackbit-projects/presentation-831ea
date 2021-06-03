@@ -38,7 +38,7 @@ Inside `metadata/tables.yaml`:
 
 ---
 
-# Configure database
+### Configure database
 
 Supabase
 ```sql
