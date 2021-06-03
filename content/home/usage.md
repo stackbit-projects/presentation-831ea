@@ -19,6 +19,39 @@ weight = 20
 Inside `metadata/tables.yaml`:
 
 ```yaml
+- table:
+    schema: public
+    name: posts
+  insert_permissions:
+  - role: api
+    permission:
+      check: {}
+      columns:
+      - title
+      - body
+      backend_only: false
+  select_permissions:
+  - role: api
+    permission:
+      columns:
+      - title
+      - id
+      - body
+      - updated_at
+      filter: {}
+      allow_aggregations: true
+  update_permissions:
+  - role: api
+    permission:
+      columns:
+      - title
+      - body
+      filter: {}
+      check: {}
+  delete_permissions:
+  - role: api
+    permission:
+      filter: {}
 
 ```
 
