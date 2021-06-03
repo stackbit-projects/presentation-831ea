@@ -6,7 +6,7 @@ weight = 20
 
 ---
 
-## Prerequisite
+## Prerequisites
 
 - Have a postgres database set
 - Some initial metadata files
