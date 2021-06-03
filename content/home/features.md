@@ -6,11 +6,6 @@ weight = 10
 
 Hasura connects different information gateways and provides a graphql interface to consume data.
 
-<br>
-<br>
-
-[see the code on github](https://github.com/dzello/reveal-hugo)
-
 ---
 
 ## Features
